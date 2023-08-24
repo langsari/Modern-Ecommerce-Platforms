@@ -57,18 +57,31 @@ This BPMN diagram show my E-Commerce Website processes, showcasing key interacti
 
       <img src="img/paymantmed.png" alt="Payment Med" width="350" height="190">
   
-  - **Make a payment:** In my website have 2 paymant method are banking tranfer and 2C2P.
+  - **Make a payment:** In my website have 2 paymant method are banking tranfer and 2C2P.  
 
-      <img src="img/banking.png" alt="Payment Banking" width="350" height="190">
+      <img src="img/banking.png" alt="Payment Banking" width="300" height="200" style="margin-right: 20px;">
+     <img src="img/2c2p.png" alt="Payment 2c2p" width="300" height="200">
+</p>
 
 - **Send payment proof:** If the customer choose banking tranfer, they have to sent the photo of payment. but If the customer use 2C2P, they no need to sent the proof.
 - **Order Completed:** The final step indicating that the order has been successfully placed.
 
-### 
+### Website pool
+- pppp
+- ppp
+ 
+### Banking system pool
+ dasdsadsadsa, sadsadsa.
+
+### 2C2P pool
+dasdsad dsadasdsad
+dasda
+
+### Shipping company
+its sdasdsda, dsadasdas. 
 
 
-## Conclusion
-testt trsrsrs f sdfsdf sdf s ds
+
 
 ## Author
 Bukhoree Sohprajin - 631431003
